@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Cambria, serif;
+            font-size: 16px;
+        }
+        h1 {
+            font-family: "Brush Script MT", cursive;
+            color: purple;
+            font-size: 40px;
+            text-align: center;
+        }
+        table {
+            margin: 20px auto;
+            width: 300px;
+            height: 150px;
+            border-spacing: 15px;
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 5px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="thh.jpg" alt="Login Image" width="385" height="135" />
+        <h1><b>Enter Login Details:</b></h1>
+    </center>
+    <form name="f1" method="post" action="right.html">
+        <table>
+            <tr>
+                <td><b>Login ID:</b></td>
+                <td><input type="text" name="t1"></td>
+            </tr>
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" name="t2"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="submit" name="b1" value="Submit"></td>
+                <td><input type="reset" name="b2" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

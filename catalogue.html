@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+            text-align: left;
+        }
+        img {
+            border: 1px solid #000;
+        }
+        input[type="submit"] {
+            padding: 5px 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="order.html" method="post">
+        <table border="1">
+            <tr>
+                <td><img src="images/wt.jpg" alt="Web Technologies" width="100" height="100"/></td>
+                <td>
+                    <b>Book:</b> Web Technologies <br>
+                    <b>Author:</b> Uttam K. Roy <br>
+                    <b>Publication:</b> Oxford University Press
+                </td>
+                <td><b>Price:</b> 531</td>
+                <td><input type="submit" value="Add to cart"/></td>
+            </tr>
+            <tr>
+                <td><img src="images/php.jpg" alt="PHP & MySQL Web Development" width="100" height="100"/></td>
+                <td>
+                    <b>Book:</b> PHP & MySQL Web Development <br>
+                    <b>Author:</b> Luke Welling & Laura Thompson <br>
+                    <b>Publication:</b> PEARSON
+                </td>
+                <td><b>Price:</b> 898</td>
+                <td><input type="submit" value="Add to cart"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
